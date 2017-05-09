@@ -3,152 +3,16 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <title>adam2k</title>
-        <meta name="description" content="Adam Vandover portfolio and about me website.">
-        <meta name="keywords" content="Adam Vandover, Rapid Prototype Developer, Software Engineer, Swift, JavaScript, Java">
+        <title>The Mirrors</title>
+        <meta name="description" content="The Mirrors">
+        <meta name="keywords" content="The Mirrors, Spectral Sunshine Parade">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="author" content="Adam Vandover">
-        <meta http-equiv="last-modified" content="Mon, 29 Apr 2017 14:39:35 EDT" />
+        <meta http-equiv="last-modified" content="Fri, 05 May 2017 19:35:35 EDT" />
         <meta http-equiv="cache-control" content="Private" />
         <meta http-equiv="Expires" content="86000" />
-        <style>
-            body, html {
-                margin: 0;
-                padding: 0;
-                font-size: 16px;
-                font-family: 'Quicksand', sans-serif;
-                background: #fff;
-                color: #fff;
-                font-weight: 400;
-            }
-            h1 {
-                font-size: 2rem;
-                margin: 0;
-                font-weight: 900;
-                text-align: center;
-                width: 100%;
-            }
-            h2 {
-                margin: 0;
-                padding: 1rem 0;
-                text-align: center;
-            }
-            p {
-                font-size: 1.125rem;
-                line-height: 1.75rem;
-                margin: 0;
-                padding: 0.5rem 0;
-            }
-            a, a:visited {
-                font-size: 1.25rem;
-                text-decoration: none;
-                border: none;
-                color: #febc20;
-                -webkit-transition: all 200ms; /* Safari */
-                transition: all 200ms;
-            }
-            a:hover, a:active, a:focus {
-                color: #dd9b1d;
-            }
-            a::selection, h1::selection, h2::selection, h3::selection, h5::selection, h5::selection, h6::selection, p::selection, img::selection, a span::selection, a i.mdi::selection {
-                background-color: #febc20;
-                color: #fff;
-            }
-            header, footer {
-                margin: 0;
-                padding: 0.5rem 1rem;
-                background: #febc20;
-            }
-            .inner-header, .inner-footer {
-                margin: auto auto;
-                padding: 1.5rem 0;
-                max-width: 660px;
-                display: flex;
-                flex-direction: column;
-                justify-content: flex-start;
-            }
-            .profile-pic {
-                border: none;
-                border-radius: 100%;
-                width: auto;
-                max-width: 150px;
-                height: 150px;
-                margin: auto auto;
-            }
-            .card {
-                display: flex;
-                flex-direction: column;
-                justify-content: center;
-                padding: 0.5rem 1rem 0;
-            }
-            main {
-                display: flex;
-                margin: auto auto;
-                max-width: 660px;
-                padding: 1rem 1rem 1rem;
-                flex-direction: column;
-                color: #555555;
-            }
-            footer {
-                padding-top: 0;
-                background: #fff;
-            }
-            .inner-footer {
-                padding-top: 0;
-            }
-            .inner-footer ul {
-                display: flex;
-                flex-direction: row;
-                justify-content: flex-start;
-                flex-wrap: wrap;
-                list-style: none;
-                margin: 0;
-                padding: 0;
-            }
-            .inner-footer ul li {
-                flex-basis: 50%;
-            }
-            footer a {
-                padding: 0.5rem 0;
-                display: inline-flex;
-            }
-            footer a i {
-                padding-right: 0.5rem;
-            }
-            @media (min-width: 480px) {
-                h1 {
-                    font-size: 2.5rem;
-                    text-align: left;
-                    width: 100%;
-                }
-                h2 {
-                    margin: 0;
-                    padding: 1rem 0;
-                    text-align: left;
-                }
-                p {
-                    font-size: 1.25rem;
-                    line-height: 1.95rem;
-                }
-                .inner-header, .inner-footer {
-                    flex-direction: row;
-                    padding: 3rem 0;
-                }
-                .inner-footer ul {
-                    justify-content: space-between;
-                }
-                .inner-footer ul li {
-                    flex-basis: 33%;
-                }
-                .profile-pic {
-                    margin: auto auto;
-                }
-                .card {
-                    padding: 0 1rem;
-                }
-            }
-        </style>
-        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
         <!-- Google Tag Manager -->
         <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
         new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
@@ -165,61 +29,81 @@
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KQLRL5H"
         height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <!-- End Google Tag Manager (noscript) -->
+        <div id="fb-root"></div>
+        <script>(function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.9&appId=432963316714570";
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
         <header>
             <div class="inner-header">
-                <img class="profile-pic" src="images/profile.jpg" />
-                <div class="card">
-                    <h1>Adam Vandover</h1>
-                    <h2>// Rapid Prototyping Software Engineer</h2>
+                <div class="logo">
+                    <img src="images/we_are_the_mirrors.png" alt="We Are The Mirrors" />
                 </div>
             </div>
         </header>
         <main>
-            <p>Hello, I am a software engineer from Norfolk, Virginia. I work with a wide range of technologies including <a href="https://swift.org/" target="_blank">Swift</a>, <a href="http://www.oracle.com/technetwork/java/javase/documentation/index.html" target="_blank">Java</a>, and <a href="https://www.javascript.com/" target="_blank">JavaScript</a>.  I am driven to create innovative, best-in-class software solutions.  I have a strong mastery of puns...although, at times they might be a little pun-gent.</p>
-            <p>Interested in talking?  Send me a message and we can chat.</p>
-            <p>You can find me all around the Interwebs or running around Norfolk.</p>
+            <div class="fb-page"
+                data-href="https://www.facebook.com/mirrorsmusic/"
+                data-tabs="timeline, events, messages"
+                data-width="500"
+                data-height="600"
+                data-small-header="true"
+                data-adapt-container-width="true"
+                data-hide-cover="true"
+                data-show-facepile="false">
+                <blockquote cite="https://www.facebook.com/mirrorsmusic/" class="fb-xfbml-parse-ignore">
+                    <a href="https://www.facebook.com/mirrorsmusic/">The Mirrors</a>
+                </blockquote>
+            </div>
         </main>
         <footer>
             <div class="inner-footer">
                 <ul>
                     <li>
-                        <a href="&#109;&#97;&#x69;&#x6c;&#116;&#x6f;&#58;&#x61;&#x76;&#x61;&#110;&#x64;&#111;&#118;&#101;&#114;&#x40;&#x67;&#109;&#x61;&#x69;&#x6c;&#x2e;&#99;&#111;&#109;">
-                            <i class="mdi mdi-email"></i>
-                            <span>email</span>
-                        </a>
+                        <i class="mdi mdi-email"></i>
+                        <script type="text/javascript">
+                        //<![CDATA[
+                        <!--
+                        var x="function f(x,y){var i,o=\"\",l=x.length;for(i=0;i<l;i++){if(i<116)y++" +
+                        ";y%=127;o+=String.fromCharCode(x.charCodeAt(i)^(y++));}return o;}f(\"\\023\\"+
+                        "002\\027\\030\\timj&n\\\"t'kdud8s0q\\035\\000\\006\\nGF\\021V\\036^QX_NT\\0" +
+                        "22,\\177+*s=$'<7|.v94?\\022!\\013\\002\\r+\\030F\\034]EEQ[AK3*~s{rvw:.m,u0 " +
+                        "s\\032^FF]HE\\007T\\032NJD]RMi*x+dzv&onel0vpw$\\017J_\\033J\\006\\016\\006\\"+
+                        "032(\\036C\\005DU\\022\\002\\024\\006\\006\\006\\033V\\030V\\n\\017\\031\\0" +
+                        "17\\t\\014(1.lh,=zn!(\\\"?!R-SV_OHIJAU*(+@A@S\\023\\021\\022\\177x\\022\\02" +
+                        "6\\027tu\\036\\032\\034qr\\036\\000\\001no\\002\\004\\006kdmq\\017\\010\\01" +
+                        "7\\016c\\034rps\\030\\031\\003wyy\\026\\027\\\"\\021\\022|`a\\016\\017`df\\" +
+                        "013\\004ljk\\000\\001#mPQ>?\\004\\\\QIXE\\035\\037\\03012HQLQ/V)*QKIJ' \\02" +
+                        "0]''.345Z[r;,*%-:< !\\\"OHFDH-+*G@TUHee~\\177xy\\177qrl\\177vceuDik\\177fb\\"+
+                        "002\\005\\007deqlru\\177M|\\000c>srw\\033\\024\\\":|;dxt,,'(3baf\\004\\005!" +
+                        "~\\\":35\\023\\007\\t\\0048GN\\001\\025R\\005K\\002\\037\\033\\033\\025\\00" +
+                        "3\\017H]\\\\]\\\\\\001Q$R\\025U\\nAdflGwgok'r#iiaLbpzPyzdq6~trniM\\\"\\013N" +
+                        "\\031\\024\\026\\024\\033\\002Q\\022\\030\\026\\006T\\007\\006I\\032\\001\\" +
+                        "033\\n\\\\\\036QQB\\023\\020\\027T\\005S|(ysy,n5'/q#8* *<\\177*n8y\\nu\\004" +
+                        "{g4p4~-\\001\\027\\031J\\035I\\036O\\016I\\004\\004\\005\\031\\r\\001\\005\\"+
+                        "027PZ\",116)"                                                                ;
+                        while(x=eval(x));
+                        //-->
+                        //]]>
+                        </script>
                     </li>
                     <li>
-                        <a href="https://www.linkedin.com/in/avandover/" target="_blank">
-                            <i class="mdi mdi-linkedin"></i>
-                            <span>linkedin</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.github.com/adam2k" target="_blank">
-                            <i class="mdi mdi-github-circle"></i>
-                            <span>github</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://stackoverflow.com/users/1008875/adam2k" target="_blank">
-                            <i class="mdi mdi-stackoverflow"></i>
-                            <span>stackoverflow</span>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="https://www.instagram.com/adam2k" target="_blank">
+                        <a href="https://www.instagram.com/wearethemirrors" target="_blank">
                             <i class="mdi mdi-instagram"></i>
                             <span>Instagram</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.twitter.com/adam2k" target="_blank">
+                        <a href="https://twitter.com/wearethemirrors" target="_blank">
                             <i class="mdi mdi-twitter"></i>
                             <span>twitter</span>
                         </a>
                     </li>
                     <li>
-                        <a href="https://www.facebook.com/adam2k" target="_blank">
+                        <a href="https://www.facebook.com/mirrorsmusic" target="_blank">
                             <i class="mdi mdi-facebook-box"></i>
                             <span>facebook</span>
                         </a>
@@ -227,6 +111,7 @@
                 </ul>
             </div>
         </footer>
+        <div class="full-bleed"></div>
         <link href="//cdn.materialdesignicons.com/1.9.32/css/materialdesignicons.min.css" rel="stylesheet" type="text/css">
     </body>
 </html>

@@ -1,0 +1,125 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Helvetica, sans-serif;
+    background: #fff;
+    color: #fff;
+    font-weight: 400;
+}
+h1 {
+    font-family: 'Slabo 27px', serif;
+    color: #000;
+    font-size: 4rem;
+    margin: 0;
+    font-weight: 400;
+    text-align: center;
+    width: 100%;
+}
+h2 {
+    margin: 0;
+    padding: 1rem 0;
+    text-align: center;
+}
+p {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    margin: 0;
+    padding: 0.5rem 0;
+}
+a, a:visited, .mdi {
+    font-size: 1.25rem;
+    text-decoration: none;
+    border: none;
+    color: #febc20;
+    -webkit-transition: all 200ms; /* Safari */
+    transition: all 200ms;
+}
+a:hover, a:active, a:focus {
+    color: #dd9b1d;
+}
+a::selection, h1::selection, h2::selection, h3::selection, h5::selection, h5::selection, h6::selection, p::selection, img::selection, a span::selection, a i.mdi::selection {
+    background-color: #febc20;
+    color: #fff;
+}
+header, footer, main {
+    z-index: 10;
+    display: block;
+    position: relative;
+}
+header {
+    background-color: #FF5722;
+}
+header, footer {
+    margin: 0;
+    padding: 0.5rem 1rem;
+}
+.inner-header, .inner-footer {
+    margin: auto auto;
+    padding: 1.5rem 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.inner-header{
+    max-width: 1024px;
+}
+.inner-footer {
+    max-width: 500px;
+}
+
+.logo {
+    animation: colorRotate 2s linear infinite;
+    margin: auto auto;
+    padding: 3rem 0;
+}
+.logo img {
+    width: 100%;
+}
+
+@keyframes colorRotate {
+    100% {
+        -webkit-filter: hue-rotate(360deg);
+        filter: hue-rotate(360deg);
+    }
+}
+
+main {
+    display: flex;
+    margin: auto auto;
+    max-width: 660px;
+    padding: 1rem 1rem 1rem;
+    flex-direction: column;
+    color: #555555;
+}
+.fb-page {
+    margin: auto auto;
+    width: 100%;
+    max-width: 500px;
+}
+footer {
+    padding-top: 0;
+    background: #fff;
+}
+.inner-footer {
+    padding-top: 0;
+}
+.inner-footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.inner-footer ul li {
+    flex-basis: 50%;
+}
+footer a {
+    padding: 0.5rem 0;
+    display: inline-flex;
+}
+footer a i {
+    padding-right: 0.5rem;
+}
